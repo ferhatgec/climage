@@ -43,7 +43,16 @@ public:
 
     std::vector<std::vector<climage_rgb>> layer;
 
-    bool sof, sof2, sof3, sof4, sof5, sof6, ok, sow, soh, color_start;
+    bool sof = false,
+         sof2 = false,
+         sof3 = false,
+         sof4 = false,
+         sof5 = false,
+         sof6 = false,
+         ok = false,
+         sow = false,
+         soh = false,
+         color_start = false;
 
     std::string current_hex;
 
